@@ -35,7 +35,7 @@ html, body {
 
 }
 
-#earth {
+#mercury {
     /* Style your earth */
     position: absolute;
     top: 0;
@@ -43,28 +43,28 @@ html, body {
     
     height:50px;
     width:50px;
-    height: 4.5vw;
-    width: 4.5vw;
+    height: 1vw;
+    width: 1vw;
 
     margin-left: -25px;
     margin-top:-25px;
-    margin-left: -2.2vw;
-    margin-top: -2.2vw;
+    margin-left: -0.5vw;
+    margin-top: -0.5vw;
 }
 
-#earth-orbit {
+#mercury-orbit {
     position: absolute;
     top:50%;
     left:50%;
     
     width:500px;
     height: 500px;
-    width:40vw;
-    height: 40vw;
-    margin-top:-20vw;
-    margin-left:-20vw;
+    width: 15vw;
+    height: 15vw;
+    margin-top:-7.5vw;
+    margin-left:-7.5vw;
     
-    border-width: 2px;
+    border-width: 0.1vw;
     border-style: dotted;
     border-color: white;
     border-radius: 50%;
@@ -74,6 +74,90 @@ html, body {
       -ms-animation: spin-right 10s linear infinite;
        -o-animation: spin-right 10s linear infinite;
           animation: spin-right 10s linear infinite;
+    
+}
+
+#venus {
+    /* Style your earth */
+    position: absolute;
+    top: 0;
+    left: 50%;
+    
+    height:50px;
+    width:50px;
+    height: 3vw;
+    width: 3vw;
+
+    margin-left: -25px;
+    margin-top:-25px;
+    margin-left: -1.5vw;
+    margin-top: -1.5vw;
+}
+
+#venus-orbit {
+    position: absolute;
+    top:50%;
+    left:50%;
+    
+    width:500px;
+    height: 500px;
+    width: 20vw;
+    height: 20vw;
+    margin-top:-10vw;
+    margin-left:-10vw;
+    
+    border-width: 0.1vw;
+    border-style: dotted;
+    border-color: white;
+    border-radius: 50%;
+    
+    -webkit-animation: spin-right 15s linear infinite;
+     -moz-animation: spin-right 15s linear infinite;
+      -ms-animation: spin-right 15s linear infinite;
+       -o-animation: spin-right 15s linear infinite;
+          animation: spin-right 15s linear infinite;
+    
+}
+
+#earth {
+    /* Style your earth */
+    position: absolute;
+    top: 0;
+    left: 50%;
+    
+    height:50px;
+    width:50px;
+    height: 3vw;
+    width: 3vw;
+
+    margin-left: -25px;
+    margin-top:-25px;
+    margin-left: -1.5vw;
+    margin-top: -1.5vw;
+}
+
+#earth-orbit {
+    position: absolute;
+    top:50%;
+    left:50%;
+    
+    width:500px;
+    height: 500px;
+    width:27.5vw;
+    height: 27.5vw;
+    margin-top:-13.75vw;
+    margin-left:-13.75vw;
+    
+    border-width: 0.1vw;
+    border-style: dotted;
+    border-color: white;
+    border-radius: 50%;
+    
+    -webkit-animation: spin-right 20s linear infinite;
+     -moz-animation: spin-right 20s linear infinite;
+      -ms-animation: spin-right 20s linear infinite;
+       -o-animation: spin-right 20s linear infinite;
+          animation: spin-right 20s linear infinite;
     
 }
 
@@ -89,8 +173,8 @@ html, body {
     /* 50% of height and width of planet, used for aligning to orbit path*/
     /*margin-left: -20px;
     margin-top: -20px;*/
-    margin-left: 4.5vw;
-    margin-right: 4.5vw;
+    margin-left: 6vw;
+    margin-right: 6vw;
 }
 
 #mars-orbit {
@@ -101,25 +185,109 @@ html, body {
     width: 350px;
     height: 350px;
     /*Made mars percentage based*/
-    width: 30vw;
-    height: 30vw;
+    width: 35vw;
+    height: 35vw;
     /* Remove half of height, width, to position planet in center*/
     margin-top:-175px;
     margin-left:-175px;
     /*Made mars percentage based*/
-    margin-top:-15vw;
-    margin-left:-15vw;
+    margin-top:-17.5vw;
+    margin-left:-17.5vw;
     
-    border-width: 2px;
+    border-width: 0.1vw;
     border-style: dotted;
     border-color: white;
     border-radius: 50%;
     
-    -webkit-animation: spin-right 5s linear infinite;
-     -moz-animation: spin-right 5s linear infinite;
-      -ms-animation: spin-right 5s linear infinite;
-       -o-animation: spin-right 5s linear infinite;
-          animation: spin-right 5s linear infinite;
+    -webkit-animation: spin-right 25s linear infinite;
+     -moz-animation: spin-right 25s linear infinite;
+      -ms-animation: spin-right 25s linear infinite;
+       -o-animation: spin-right 25s linear infinite;
+          animation: spin-right 25s linear infinite;
+    
+}
+
+#jupiter {
+    /* Style your earth */
+    position: absolute;
+    top: 0;
+    left: 50%;
+    
+    height:50px;
+    width:50px;
+    height: 6vw;
+    width: 6vw;
+
+    margin-left: -25px;
+    margin-top:-25px;
+    margin-left: -3vw;
+    margin-top: -3vw;
+}
+
+#jupiter-orbit {
+    position: absolute;
+    top:50%;
+    left:50%;
+    
+    width:500px;
+    height: 500px;
+    width:45vw;
+    height: 45vw;
+    margin-top:-22.5vw;
+    margin-left:-22.5vw;
+    
+    border-width: 0.1vw;
+    border-style: dotted;
+    border-color: white;
+    border-radius: 50%;
+    
+    -webkit-animation: spin-right 30s linear infinite;
+     -moz-animation: spin-right 30s linear infinite;
+      -ms-animation: spin-right 30s linear infinite;
+       -o-animation: spin-right 30s linear infinite;
+          animation: spin-right 30s linear infinite;
+    
+}
+
+#saturn {
+    /* Style your earth */
+    position: absolute;
+    top: 0;
+    left: 50%;
+    
+    height:50px;
+    width:50px;
+    height: 7vw;
+    width: 7vw;
+
+    margin-left: -25px;
+    margin-top:-25px;
+    margin-left: -3.5vw;
+    margin-top: -3.5vw;
+}
+
+#saturn-orbit {
+    position: absolute;
+    top:50%;
+    left:50%;
+    
+    width:500px;
+    height: 500px;
+    width: 60vw;
+    height: 60vw;
+    margin-top:-30vw;
+    margin-left:-30vw;
+    
+    border-width: 0.1vw;
+    border-style: dotted;
+    border-color: white;
+    border-radius: 50%;
+    
+    -webkit-animation: spin-right 35s linear infinite;
+     -moz-animation: spin-right 35s linear infinite;
+      -ms-animation: spin-right 35s linear infinite;
+       -o-animation: spin-right 35s linear infinite;
+          animation: spin-right 35s linear infinite;
     
 }
 
